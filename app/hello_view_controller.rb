@@ -1,11 +1,11 @@
-class HomeViewController < UIViewController
+class HelloViewController < UIViewController
   include Layout
   
   def viewDidLoad
     view.backgroundColor = UIColor.whiteColor
     
     layout(view, 10, 10) do |lb|
-      @hello = make_label("hi there")
+      @hello = make_label("Hello, World")
       @pushme = make_button("Push me", "pushed")
       @clear_counter = make_button("Clear", "clear_counter")
       
@@ -20,13 +20,8 @@ class HomeViewController < UIViewController
     
     def clear_counter
       @counter = 0
-      @hello.text = "hi there"
+      @hello.text = "Hello, World"
     end
-    
-    # alert = UIAlertView.new
-    # alert.message = "hello there"
-    # alert.addButtonWithTitle("OK")
-    # alert.show
   end
   
   
