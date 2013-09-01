@@ -22,8 +22,8 @@ Lucky for us, the video of the talk was pushed up to YouTube:
 About the App
 ---
 The app in the repo is one of several Jim presented.  Also, note that this app does fork a little bit from what he presented.  For example, I moved layout.rb from /app to /app/lib and told
-Rakefile to load all files in the lib folder before the files in the app directory.  I read somewhere that files in app are
-loaded in alphabetical order.  Also, unlike the structure of a Ruby on Rails app, the lib is inside the app folder, and that 
+Rakefile to load all files in the lib folder before the files in the app directory.  I read about RubyMotion somewhere that files 
+in the app directory are loaded in alphabetical order.  Note also that, unlike the structure of a Ruby on Rails app, the lib folder is inside the app folder, and that 
 might throw off Rails fans a tiny bit.
 
 Screenshot of the app:
